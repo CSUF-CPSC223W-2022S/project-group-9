@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7ACE371427C5A611006623B3 /* restaurantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE371327C5A611006623B3 /* restaurantClass.swift */; };
 		7ACE371627C5AB3E006623B3 /* restaurantObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE371527C5AB3E006623B3 /* restaurantObjects.swift */; };
+		7AD0388127C7F65600D29B2E /* testRestaurantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0387F27C7F47C00D29B2E /* testRestaurantClass.swift */; };
 		7AE6E56827C5586200438EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6E56727C5586200438EB3 /* AppDelegate.swift */; };
 		7AE6E56A27C5586200438EB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6E56927C5586200438EB3 /* SceneDelegate.swift */; };
 		7AE6E56C27C5586200438EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6E56B27C5586200438EB3 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		7ACE371327C5A611006623B3 /* restaurantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantClass.swift; sourceTree = "<group>"; };
 		7ACE371527C5AB3E006623B3 /* restaurantObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantObjects.swift; sourceTree = "<group>"; };
+		7AD0387F27C7F47C00D29B2E /* testRestaurantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRestaurantClass.swift; sourceTree = "<group>"; };
 		7AE6E56427C5586200438EB3 /* TuffyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuffyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE6E56727C5586200438EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE6E56927C5586200438EB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		7AE6E57D27C5586500438EB3 /* TuffyFoodTests */ = {
 			isa = PBXGroup;
 			children = (
+				7AD0387F27C7F47C00D29B2E /* testRestaurantClass.swift */,
 				7AE6E57E27C5586500438EB3 /* TuffyFoodTests.swift */,
 				7AE6E58027C5586500438EB3 /* Info.plist */,
 			);
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE6E57F27C5586500438EB3 /* TuffyFoodTests.swift in Sources */,
+				7AD0388127C7F65600D29B2E /* testRestaurantClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
