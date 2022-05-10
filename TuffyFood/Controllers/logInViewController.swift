@@ -49,9 +49,9 @@ class logInViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         user.email = emailField.text
         if segue.identifier == Constants.Storyboard.authSegue {
-            let destinationVC = segue.destination as! HomeScreenViewController
-            print(user.email!)
-            destinationVC.email = user.email!
+            let destinationVC = segue.destination as! UITabBarController
+           let homeVC =  destinationVC.viewControllers?[0] as? HomeScreenViewController
+            homeVC!.email = user.email!
         }
         //hehexd this next part needed for nick's stuff hehexd
         //no touchy touchy
