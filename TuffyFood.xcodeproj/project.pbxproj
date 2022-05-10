@@ -24,6 +24,7 @@
 		7A7F3F9427ECDF6400DA20EB /* favoritesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F3F9327ECDF6400DA20EB /* favoritesPageViewController.swift */; };
 		7A7F3F962821A44200DA20EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F3F952821A44200DA20EB /* .gitignore */; };
 		7A7F3F9A282ACC9C00DA20EB /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F3F99282ACC9C00DA20EB /* mapViewController.swift */; };
+		7A7F3FA0282ADDCE00DA20EB /* reviewClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F3F9F282ADDCE00DA20EB /* reviewClassTests.swift */; };
 		7A9147C027FE58290058D78F /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9147BF27FE58290058D78F /* PlaceDetailViewController.swift */; };
 		7AB1D4A327D8A8B000A73E04 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1D4A227D8A8B000A73E04 /* User.swift */; };
 		7AC2FC81282AC59700BAF3A3 /* testRestaurantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC2FC80282AC59700BAF3A3 /* testRestaurantClass.swift */; };
@@ -83,6 +84,7 @@
 		7A7F3F9327ECDF6400DA20EB /* favoritesPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesPageViewController.swift; sourceTree = "<group>"; };
 		7A7F3F952821A44200DA20EB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A7F3F99282ACC9C00DA20EB /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		7A7F3F9F282ADDCE00DA20EB /* reviewClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewClassTests.swift; sourceTree = "<group>"; };
 		7A9147BF27FE58290058D78F /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
 		7AB1D4A227D8A8B000A73E04 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7AC2FC80282AC59700BAF3A3 /* testRestaurantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRestaurantClass.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				7AE6E57E27C5586500438EB3 /* TuffyFoodTests.swift */,
 				7AE6E58027C5586500438EB3 /* Info.plist */,
 				7AC2FC80282AC59700BAF3A3 /* testRestaurantClass.swift */,
+				7A7F3F9F282ADDCE00DA20EB /* reviewClassTests.swift */,
 			);
 			path = TuffyFoodTests;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE6E57F27C5586500438EB3 /* TuffyFoodTests.swift in Sources */,
+				7A7F3FA0282ADDCE00DA20EB /* reviewClassTests.swift in Sources */,
 				7AC2FC81282AC59700BAF3A3 /* testRestaurantClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
