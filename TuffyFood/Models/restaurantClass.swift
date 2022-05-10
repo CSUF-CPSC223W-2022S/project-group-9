@@ -23,5 +23,25 @@ class restaurant {
         self.priceRating = priceRating
         self.rating = rating
     }
-   
+    var allInfo: String{
+        return "\(title!)'s hours are \(hours!), and they can be found at \(location!) with the price rating of \(priceRating!) out of 5. \(image!) has the rating of \(rating!)"
+    }
+    func titlePrint()->String?{
+        return title
+    }
+    func hoursPrint()->String?{
+        return hours
+    }
+    func locationPrint()->String?{
+        return location
+    }
+    func priceRatingPrint()->String?{
+        return priceRating
+    }
+    func imagePrint()->String?{
+        return image
+    }
+    func ratingPrint()->String?{
+        return rating
+    }
 }
