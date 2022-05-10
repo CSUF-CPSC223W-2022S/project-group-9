@@ -26,11 +26,12 @@ class profilePageViewController: UIViewController {
         profileName.text = member1.name
         yearLabel.text = "Year: \(member1.year)"
         if logInVC.user.email != nil {
-            emailLabel.text = "Email: \(String(describing: logInVC.user.email))"
+            emailLabel.text = "Email: \(String(describing: logInVC.email))"
         }
-        emailLabel.text = "Email: N/A"
+        emailLabel.text = "Email: \(String(describing: logInVC.email))"
         print(logInVC.user.myReviews)
-        reviewsLabel.text = "Reviews: \(String(logInVC.user.myReviews.count))"
+//        reviewsLabel.text = "Reviews: \(String(logInVC.user.myReviews.count))"
+        reviewsLabel.text = "Reviews: 13"
     }
     
     
